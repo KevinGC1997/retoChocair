@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agregar productos a carrito exito" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-06T18:48:44" hostname="SQABOG-TGP4980" time="78.571">
+  <properties/>
+  <testcase name="agregar y validar productos agregados a carrito" classname="agregar productos a carrito exito" time="78.571"/>
+  <system-out><![CDATA[9
+296900
+5
+199900
+7
+329900
+10
+349900
+4
+223000
+Cabecero Tapizado Tela Base Cama Doble Rombos Marfil
+//*[contains(text(), 'Cabecero Tapizado Tela Base Cama Doble Rombos Marfil')]
+Cabecero Para Cama Semidoble Dublin Negro
+//*[contains(text(), 'Cabecero Para Cama Semidoble Dublin Negro')]
+Cabecero Tapizado Base Cama Queen Rombos Plateado
+//*[contains(text(), 'Cabecero Tapizado Base Cama Queen Rombos Plateado')]
+Cabecero Entero Bogle Cama Doble 140 X 120 Negro
+//*[contains(text(), 'Cabecero Entero Bogle Cama Doble 140 X 120 Negro')]
+Cabecero Industrial Caramelo Para Cama De 140 X 190
+//*[contains(text(), 'Cabecero Industrial Caramelo Para Cama De 140 X 190')]
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 23109
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 06, 2023 1:48:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: agregar y validar productos agregados a carrito
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
