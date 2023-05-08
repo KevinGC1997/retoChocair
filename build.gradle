@@ -17,9 +17,6 @@ repositories {
     mavenCentral()
 }
 
-
-
-
 dependencies {
     implementation 'net.serenity-bdd:serenity-junit:2.0.80'
     implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
