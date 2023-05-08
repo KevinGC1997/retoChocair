@@ -1,9 +1,5 @@
 package com.exito.utils;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static jdk.nashorn.internal.objects.NativeString.charAt;
 
 public class LimpiarNumero {
 

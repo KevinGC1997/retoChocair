@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="agregar productos a carrito exito" skipped="0" tests="1" time="246.71" timestamp="2023-05-08 02:46:43"><testcase name="agregar y validar productos agregados a carrito"><failure message="&#10;Expecting a value that contains: &lt;[3779100]&gt;&#10;But got........................: &lt;&quot;3006000&quot;&gt;" type="java.lang.AssertionError">
-Expecting a value that contains: &lt;[3779100]&gt;
-But got........................: &lt;"3006000"&gt;</failure><system-err>
-Expecting a value that contains: &lt;[3779100]&gt;
-But got........................: &lt;"3006000"&gt;&#13;
-com.exito.interactions.IrCarritoCompras.performAs(IrCarritoCompras.java:44)&#13;
-com.exito.tasks.IrCarritoValidarExito.performAs(IrCarritoValidarExito.java:11)&#13;
-com.exito.stepDefinitions.AgregarProductoExitoStepDefinitions.validaElTotalDeLosProductosAgregados(AgregarProductoExitoStepDefinitions.java:37)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="agregar productos a carrito exito" skipped="0" tests="1" time="72.64" timestamp="2023-05-08 08:53:59"><testcase name="agregar y validar productos agregados a carrito"/></testsuite>

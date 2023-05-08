@@ -1,103 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="agregar productos a carrito exito" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-05-08T07:46:43" hostname="SQABOG-TGP4980" time="249.385">
+<testsuite name="agregar productos a carrito exito" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-08T13:53:59" hostname="SQABOG-TGP4980" time="72.822">
   <properties/>
-  <testcase name="agregar y validar productos agregados a carrito" classname="agregar productos a carrito exito" time="249.385">
-    <failure message="java.lang.AssertionError: &#10;Expecting a value that contains: &lt;[3779100]&gt;&#10;But got........................: &lt;&quot;3006000&quot;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expecting a value that contains: &lt;[3779100]&gt;
-But got........................: &lt;&quot;3006000&quot;&gt;
-	at net.serenitybdd.screenplay.ensure.PerformableExpectation.performAs(PerformableExpectations.kt:21)
-	at net.serenitybdd.screenplay.ensure.PerformableExpectation$$EnhancerByCGLIB$$14bb407b.CGLIB$performAs$0(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.ensure.PerformableExpectation$$EnhancerByCGLIB$$14bb407b$$FastClassByCGLIB$$85ba930b.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
-	at net.serenitybdd.screenplay.ensure.PerformableExpectation$$EnhancerByCGLIB$$14bb407b.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at com.exito.interactions.IrCarritoCompras.performAs(IrCarritoCompras.java:44)
-	at com.exito.interactions.IrCarritoCompras$$EnhancerByCGLIB$$785d0f2d.CGLIB$performAs$0(&lt;generated&gt;)
-	at com.exito.interactions.IrCarritoCompras$$EnhancerByCGLIB$$785d0f2d$$FastClassByCGLIB$$f1dcbb23.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
-	at com.exito.interactions.IrCarritoCompras$$EnhancerByCGLIB$$785d0f2d.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at com.exito.tasks.IrCarritoValidarExito.performAs(IrCarritoValidarExito.java:11)
-	at com.exito.tasks.IrCarritoValidarExito$$EnhancerByCGLIB$$d22f001.CGLIB$performAs$0(&lt;generated&gt;)
-	at com.exito.tasks.IrCarritoValidarExito$$EnhancerByCGLIB$$d22f001$$FastClassByCGLIB$$4bdffb40.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
-	at com.exito.tasks.IrCarritoValidarExito$$EnhancerByCGLIB$$d22f001.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at com.exito.stepDefinitions.AgregarProductoExitoStepDefinitions.validaElTotalDeLosProductosAgregados(AgregarProductoExitoStepDefinitions.java:37)
-	at ✽.valida el total de los productos agregados(src/test/resources/com.exito.feature/AgregarProductosCarrito.feature:7)
-</failure>
-  </testcase>
-  <system-out><![CDATA[arreglo inicial: [4, 9, 10, 1, 6]
-arreglo sumario: [4, 9, 10, 1, 6]
-cantidad: 4
-223000
-arreglo en carrito: [4, 9, 10, 1, 6]
-arreglo sumario: [4, 9, 10, 1, 6]
+  <testcase name="agregar y validar productos agregados a carrito" classname="agregar productos a carrito exito" time="72.822"/>
+  <system-out><![CDATA[arreglo inicial: [7, 9, 6, 1, 2]
+arreglo sumario: [7, 9, 6, 1, 2]
+cantidad: 7
+199900
+arreglo en carrito: [7, 9, 6, 1, 2]
+arreglo sumario: [7, 9, 6, 1, 2]
 cantidad: 9
 419900
-arreglo en carrito: [4, 9, 10, 1, 6]
-arreglo sumario: [4, 9, 10, 1, 6]
-cantidad: 10
-329900
-arreglo en carrito: [4, 9, 10, 1, 6]
-arreglo sumario: [4, 9, 10, 1, 6]
-cantidad: 1
-329900
-arreglo en carrito: [4, 9, 10, 1, 6]
-arreglo sumario: [4, 9, 10, 1, 6]
+arreglo en carrito: [7, 9, 6, 1, 2]
+arreglo sumario: [7, 9, 6, 1, 2]
 cantidad: 6
 501000
-arreglo en carrito: [4, 9, 10, 1, 6]
-892000
-Cabecero Industrial Rovere Para Cama De 140 X 190
-$ 892.000
-892000
-3006000
-Cabecero Paneles Cama Doble Marfil
-$ 3.006.000
-3779100
+arreglo en carrito: [7, 9, 6, 1, 2]
+arreglo sumario: [7, 9, 6, 1, 2]
+cantidad: 1
+329900
+arreglo en carrito: [7, 9, 6, 1, 2]
+arreglo sumario: [7, 9, 6, 1, 2]
+cantidad: 2
+296900
+arreglo en carrito: [7, 9, 6, 1, 2]
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 44791
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 36978
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-may 08, 2023 2:46:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMACIÓN: Detected dialect: W3C
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+may. 08, 2023 8:54:01 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED: agregar y validar productos agregados a carrito
---------------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Brandon should see a value that contains: <[3779100]>
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expecting a value that contains: <[3779100]>But got........................: <"3006000">
+TEST PASSED: agregar y validar productos agregados a carrito
+----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>
