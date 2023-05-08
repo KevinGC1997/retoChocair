@@ -22,6 +22,8 @@ public class CategoriaSeleccionadaExitoUI {
             .locatedBy("//h3[@class='vtex-store-components-3-x-productNameContainer mv0 t-heading-4']//span");
     public static final Target TXT_PRECIO_PRODUCTO = Target.the("precio producto")
             .locatedBy("//div[@class='exito-vtex-components-4-x-PricePDP']//span[@class='exito-vtex-components-4-x-currencyContainer']");
+    public static final Target TXT_TOTAL_PRECIOS_PRODUCTOS = Target.the("")
+            .locatedBy("//div[@data-molecule-product-detail-price-best-price='true']//span[@class='exito-checkout-io-0-x-currencyContainer']");
     public static final Target BTN_CARRITO = Target.the("buton de carrito")
             .locatedBy("//a[@class='exito-header-3-x-minicartLink']");
 }

@@ -22,11 +22,16 @@ public class SumarioProductos implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        int j=0;
-        System.out.println(arreglo.get(num));
+        int j=1;
+        System.out.println("arreglo sumario: "+arreglo);
+        System.out.println("cantidad: "+arreglo.get(num));
+        int n = arreglo.get(num);
 
         //clickea hasta agregar la cantidad
-        while (arreglo.get(num) > j ){
+        if (n==0){
+          n=1;
+        }
+        while (j < n ){
             actor.attemptsTo(
                     Click.on(BTN_AGREGAR_CANTIDAD)
             );

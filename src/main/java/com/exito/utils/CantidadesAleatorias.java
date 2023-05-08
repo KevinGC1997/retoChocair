@@ -18,12 +18,14 @@ public class CantidadesAleatorias {
 
         Random random = new Random();
         List<Integer> agregados = new ArrayList<>();
-        int numero = 0;
-        while (numero < 5 ){
+        int numero = 5;
+        while (numero > agregados.size() ){
             int numRandom = random.nextInt(element.size()-1);
-            if (!agregados.contains(numRandom)) {
+            if(numRandom==0) {
+                numRandom = 1;
+            }
+            if (!agregados.contains(numRandom)){
                 agregados.add(numRandom);
-                numero++;
             }
         }
         return agregados;

@@ -14,7 +14,6 @@ public class LimpiarNumero {
     }
     public static String LimpiarNumero(String Texto) {
 
-        List<Character> list = new ArrayList<>();
         String[] arreglo = Texto.split("\\$");
         String l = arreglo[1];
         String k = l.replaceAll(" ", "");
@@ -22,6 +21,11 @@ public class LimpiarNumero {
         System.out.println(f);
 
         return f;
+    }
+    public static String LimpiarNumeroDecimal(String Texto) {
+        String arreglar = Texto.replaceAll("\\.","");
+
+        return arreglar.substring(0,arreglar.length()-1);
     }
 
 }

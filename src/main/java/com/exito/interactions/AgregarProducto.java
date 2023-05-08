@@ -26,7 +26,7 @@ public class AgregarProducto implements Interaction {
         List<WebElementFacade> NameProduct = TXT_NOMBRE_PRODUCTO.resolveAllFor(actor);
         List<WebElementFacade> precie = TXT_PRECIO_PRODUCTO.resolveAllFor(actor);
         final List<Integer> arreglo = CantidadesAleatorias.cantidadesAleatorias(listButton);
-
+        System.out.println("arreglo inicial: "+arreglo);
 
         for (int i=0; i<5; i++) {
             listButton.get(arreglo.get(i)).click();
@@ -44,6 +44,7 @@ public class AgregarProducto implements Interaction {
 
 
             //se crea el objeto Map para enviar a la clase escribir excel
+            System.out.println("arreglo en carrito: "+arreglo);
             Object[] product = new Object[]{Name, PriceProducto, arreglo.get(i), total};
             datos.put(String.valueOf(i+1), product);
             EscribirExcel.EscribirExcel(datos);
