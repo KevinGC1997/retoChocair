@@ -34,7 +34,9 @@ public class IrCarritoCompras implements Interaction {
                 System.out.println(datos.leerDatoExcel("Hoja de datos","data.xlsx",i,0));
 
                 actor.attemptsTo(
-                        Ensure.that(TXT_NOMBRE_PRUDCITO_CARRITO).text().contains(datos.leerDatoExcel("Hoja de datos","data.xlsx",i,0))
+                        Ensure.that(TXT_NOMBRE_PRUDCITO_CARRITO).text().contains(datos
+                                .leerDatoExcel("Hoja de datos","data.xlsx",i,0))
+
                 );
             } catch (IOException e) {
                 throw new RuntimeException(e);

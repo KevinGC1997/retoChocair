@@ -1,6 +1,5 @@
 package com.exito.utils;
 
-import net.serenitybdd.core.pages.WebElementFacade;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -10,7 +9,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
