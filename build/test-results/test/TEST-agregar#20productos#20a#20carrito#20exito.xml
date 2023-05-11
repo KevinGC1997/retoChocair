@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="agregar productos a carrito exito" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-08T13:53:59" hostname="SQABOG-TGP4980" time="72.822">
+<testsuite name="agregar productos a carrito exito" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-11T01:47:34" hostname="SQABOG-TGP4980" time="69.673">
   <properties/>
-  <testcase name="agregar y validar productos agregados a carrito" classname="agregar productos a carrito exito" time="72.822"/>
-  <system-out><![CDATA[arreglo inicial: [7, 9, 6, 1, 2]
-arreglo sumario: [7, 9, 6, 1, 2]
-cantidad: 7
-199900
-arreglo en carrito: [7, 9, 6, 1, 2]
-arreglo sumario: [7, 9, 6, 1, 2]
-cantidad: 9
-419900
-arreglo en carrito: [7, 9, 6, 1, 2]
-arreglo sumario: [7, 9, 6, 1, 2]
+  <testcase name="agregar y validar productos agregados a carrito" classname="agregar productos a carrito exito" time="69.673"/>
+  <system-out><![CDATA[arreglo inicial: [10, 6, 9, 3, 2]
+arreglo sumario: [10, 6, 9, 3, 2]
+cantidad: 10
+399900
+arreglo en carrito: [10, 6, 9, 3, 2]
+arreglo sumario: [10, 6, 9, 3, 2]
 cantidad: 6
-501000
-arreglo en carrito: [7, 9, 6, 1, 2]
-arreglo sumario: [7, 9, 6, 1, 2]
-cantidad: 1
-329900
-arreglo en carrito: [7, 9, 6, 1, 2]
-arreglo sumario: [7, 9, 6, 1, 2]
+419900
+arreglo en carrito: [10, 6, 9, 3, 2]
+arreglo sumario: [10, 6, 9, 3, 2]
+cantidad: 9
+204900
+arreglo en carrito: [10, 6, 9, 3, 2]
+arreglo sumario: [10, 6, 9, 3, 2]
+cantidad: 3
+204900
+arreglo en carrito: [10, 6, 9, 3, 2]
+arreglo sumario: [10, 6, 9, 3, 2]
 cantidad: 2
 296900
-arreglo en carrito: [7, 9, 6, 1, 2]
+arreglo en carrito: [10, 6, 9, 3, 2]
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 36978
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 6129
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-may. 08, 2023 8:54:01 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+may. 10, 2023 8:47:36 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

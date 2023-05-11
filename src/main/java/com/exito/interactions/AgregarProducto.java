@@ -26,7 +26,7 @@ public class AgregarProducto implements Interaction {
         List<WebElementFacade> NameProduct = TXT_NOMBRE_PRODUCTO.resolveAllFor(actor);
         List<WebElementFacade> precie = TXT_PRECIO_PRODUCTO.resolveAllFor(actor);
         final List<Integer> arreglo = CantidadesAleatorias.cantidadesAleatorias(listButton);
-        System.out.println("arreglo inicial: "+arreglo);
+        System.out.println("arreglo inicial: "+arreglo );
 
         for (int i=0; i<5; i++) {
             listButton.get(arreglo.get(i)).click();

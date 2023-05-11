@@ -9,7 +9,6 @@ public class LimpiarNumero {
             Texto = texto;
     }
     public static String LimpiarNumero(String Texto) {
-
         String[] arreglo = Texto.split("\\$");
         String l = arreglo[1];
         String k = l.replaceAll(" ", "");
